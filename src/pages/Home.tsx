@@ -43,10 +43,16 @@ const Container = styled.div`
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    min-width: 100vw;
+    min-width: 100vw;   
   }
-h1 {
-  font-size: 5.2em;
-  line-height: 1.1;
-}  
+    h1 {
+    font-size: 5.2em;
+    line-height: 1.1;
+    } 
+ 
+  @media (max-width: 768px) {  
+    h1 {
+      font-size: 2.2em;
+    }
+  }
 `
